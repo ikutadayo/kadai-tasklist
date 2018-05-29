@@ -111,7 +111,7 @@ class TasksController extends Controller
 
 
         $task = Task::find($id);
-        $task->stauts = $request->status; add
+        $task->stauts = $request->status;
         $task->content = $request->content;
         $task->save();
 
