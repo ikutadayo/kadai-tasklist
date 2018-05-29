@@ -11,7 +11,7 @@
         {!! Form::text('content') !!}
         
          {!! Form::label('status', 'ステータス:') !!}
-        {!! Form::text('staus') !!}
+        {!! Form::text('status') !!}
         
         
 
