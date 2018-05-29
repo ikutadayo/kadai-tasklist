@@ -10,9 +10,7 @@
         {!! Form::label('status', 'ステータス:') !!}
         {!! Form::text('staus') !!}
         
-        {!! Form::label('title', 'タイトル:') !!}
-        {!! Form::text('title') !!}
-
+    
         {!! Form::label('content', 'タスク:') !!}
         {!! Form::text('content') !!}
         
