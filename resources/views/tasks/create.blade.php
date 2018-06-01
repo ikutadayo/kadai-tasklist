@@ -11,17 +11,9 @@
             
                 <div class="form-group">
                 
-                    
-                    <div class="dropdown">
-                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        ステータス<span class="caret"></span>
-                      </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">完了</a></li>
-                            <li><a href="#">途中</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">微妙</a></li>
-                      </ul>
+                    {!! Form::label('content', 'タスク:') !!}
+                    {!! Form::text('content', null, ['class' => 'form-control']) !!}
+                        
                 </div>
                 
                 
