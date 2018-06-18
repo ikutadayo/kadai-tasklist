@@ -136,7 +136,6 @@ class TasksController extends Controller
         $task->save();
 
 
-         } else {
              return redirect('/');
         }
     }
